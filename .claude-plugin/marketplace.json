@@ -1,18 +1,18 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "frontend-slides",
-  "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.",
+  "name": "slide-studio",
+  "description": "Animation-rich HTML presentations plus rich in-slide tables (tags, status cells, expand rows, push-aside detail drawers).",
   "owner": {
-    "name": "zarazhangrui",
-    "url": "https://github.com/zarazhangrui"
+    "name": "nocodevit",
+    "url": "https://github.com/nocodevit"
   },
   "plugins": [
     {
-      "name": "frontend-slides",
-      "description": "Zero-dependency HTML presentation generator with 12 curated visual themes, PPT conversion, and anti-AI-slop design philosophy.",
-      "source": "./plugins/frontend-slides",
+      "name": "slide-studio",
+      "description": "Zero-dependency HTML presentation generator with 12 curated visual themes, PPT conversion, anti-AI-slop design, and 6 table patterns for in-slide data (including push-aside detail drawer).",
+      "source": "./plugins/slide-studio",
       "category": "productivity",
-      "tags": ["presentations", "slides", "html", "design", "powerpoint"]
+      "tags": ["presentations", "slides", "html", "design", "powerpoint", "tables"]
     }
   ]
 }

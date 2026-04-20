@@ -1,0 +1,1 @@
+../../../../table-patterns.md

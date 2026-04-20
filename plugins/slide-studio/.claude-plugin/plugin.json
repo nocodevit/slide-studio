@@ -1,0 +1,13 @@
+{
+  "name": "slide-studio",
+  "version": "1.1.0",
+  "description": "Zero-dependency HTML presentation generator with 12 curated visual themes, PPT conversion, anti-AI-slop design, and 6 table patterns for in-slide data (including push-aside detail drawer).",
+  "author": {
+    "name": "nocodevit",
+    "url": "https://github.com/nocodevit"
+  },
+  "homepage": "https://github.com/nocodevit/slide-studio",
+  "repository": "https://github.com/nocodevit/slide-studio",
+  "license": "MIT",
+  "keywords": ["presentations", "slides", "html", "design", "powerpoint", "animations", "tables"]
+}
