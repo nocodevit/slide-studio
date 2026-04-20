@@ -58,8 +58,11 @@ These invariants apply to EVERY slide in EVERY presentation:
 | Code slide    | 1 heading + 8-10 lines of code                            |
 | Quote slide   | 1 quote (max 3 lines) + attribution                       |
 | Image slide   | 1 heading + 1 image (max 60vh height)                     |
+| Table slide   | 1 heading + table (max 8 rows incl. header × 6 columns)   |
 
 **Content exceeds limits? Split into multiple slides. Never cram, never scroll.**
+
+**For table slides** (comparison matrices, expandable detail rows, dropdown-filtered views, inline data bars, winner-highlighted comparisons), read [table-patterns.md](table-patterns.md) for the 5 supported patterns and their constraints.
 
 ---
 
@@ -182,6 +185,7 @@ If images were provided, the slide outline already incorporates them from Step 1
 - [html-template.md](html-template.md) — HTML architecture and JS features
 - [viewport-base.css](viewport-base.css) — Mandatory CSS (include in full)
 - [animation-patterns.md](animation-patterns.md) — Animation reference for the chosen feeling
+- [table-patterns.md](table-patterns.md) — Read when any slide contains a table
 
 **Key requirements:**
 
