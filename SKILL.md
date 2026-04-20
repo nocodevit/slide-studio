@@ -1,9 +1,9 @@
 ---
-name: frontend-slides
-description: Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.
+name: slide-studio
+description: Create stunning, animation-rich HTML presentations — including rich in-slide tables with tags, status cells, expand rows, and push-aside detail drawers — from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.
 ---
 
-# Frontend Slides
+# Slide Studio
 
 Create zero-dependency, animation-rich HTML presentations that run entirely in the browser.
 
@@ -62,7 +62,13 @@ These invariants apply to EVERY slide in EVERY presentation:
 
 **Content exceeds limits? Split into multiple slides. Never cram, never scroll.**
 
-**For table slides** (comparison matrices, expandable detail rows, dropdown-filtered views, inline data bars, winner-highlighted comparisons), read [table-patterns.md](table-patterns.md) for the 5 supported patterns and their constraints.
+### Table Slides
+
+When the content is structured (comparison, matrix, tiered plans, status lists), **read [table-patterns.md](table-patterns.md) before generating**. It covers:
+
+- **"When to Use a Table"** trigger logic — explicit keywords (table/matrix/compare/CSV data) AND heuristic signals (≥3 entities × ≥2 shared attributes, repeated bullet shape, etc.). Always confirm format choice with the user via `AskUserQuestion` before committing to a table — offer 1–2 alternatives (feature grid, ranking list).
+- **6 patterns**: static comparison, expand-on-click rows, dropdown filter, inline data bars, winner-highlighted, **push-aside detail drawer** (click row → table compresses left, detail panel slides in right, non-overlay, both stay visible).
+- **Cell style library**: tag/pill, status dot, score bar, trend arrow, avatar, rating — reusable across all patterns.
 
 ---
 

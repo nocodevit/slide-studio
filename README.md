@@ -1,10 +1,12 @@
-# Frontend Slides
+# Slide Studio
 
-A Claude Code skill for creating stunning, animation-rich HTML presentations — from scratch or by converting PowerPoint files.
+A Claude Code skill for creating stunning, animation-rich HTML presentations — plus rich in-slide tables with tags, drawers, and expandable rows — from scratch or by converting PowerPoint files.
+
+> Forked from [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides). This fork adds table support and other extensions.
 
 ## What This Does
 
-**Frontend Slides** helps non-designers create beautiful web presentations without knowing CSS or JavaScript. It uses a "show, don't tell" approach: instead of asking you to describe your aesthetic preferences in words, it generates visual previews and lets you pick what you like.
+**Slide Studio** helps non-designers create beautiful web presentations without knowing CSS or JavaScript. It uses a "show, don't tell" approach: instead of asking you to describe your aesthetic preferences in words, it generates visual previews and lets you pick what you like.
 
 Here is a deck about the skill, made through the skill:
 
